@@ -55,7 +55,7 @@ int solve(double L, int Nx, double t, double dt)
 	{
 		for (int j = 0; j < (Nt + 1); j++)
 		{
-			cout << u[i][j] << " ";
+			//		cout << u[i][j] << " ";
 		}
 		cout << endl;
 	}
@@ -98,7 +98,7 @@ int solve(double L, int Nx, double t, double dt)
 	}
 
 
-	for (int j = 2; j < (Nt + 1); j++)
+	for (int j = 2; j < (Nt); j++)
 	{
 		for (int i = 1; i < (Nx); i++)
 		{
